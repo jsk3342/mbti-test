@@ -1,6 +1,57 @@
+* {
+  font-family: "Nanum Brush Script", cursive;
+}
+
+/* 메인페이지 */
+
+.container {
+  width: 100vh;
+  height: 100vh;
+  background-color: #f2f0eb;
+}
+
+.main-img {
+  position: absolute;
+  width: 80%;
+  height: 65%;
+  top: 20%;
+}
+
+
+#start-title {
+  font-size: 3rem;
+  position: absolute;
+  width: 80%;
+  width: 70%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-btn {
+  position: absolute;
+  width: 80%;
+  width: 70%;
+  top: 80%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+/* 질문화면 */
+
+
+#A {
+  background-color: #a63c3c;
+}
+
 article {
   display: flex;
   flex-direction: column;
+}
+
+.start {
+  align-items: center;
 }
 
 .question,
