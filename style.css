@@ -17,11 +17,9 @@
   top: 20%;
 }
 
-
 #start-title {
   font-size: 3rem;
   position: absolute;
-  width: 80%;
   width: 70%;
   top: 10%;
   left: 50%;
@@ -30,7 +28,6 @@
 
 .start-btn {
   position: absolute;
-  width: 80%;
   width: 70%;
   top: 80%;
   left: 50%;
@@ -40,8 +37,52 @@
 
 /* 질문화면 */
 
+.progress-bar {
+  background-color: #91d7f2;
+}
+
+/* 질문화면 - 버튼 */
+
+#sub-title {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
+#A,
+#B {
+  font-size: 2rem;
+  margin: 20px 0;
+}
 
 #A {
+  position: absolute;
+  width: 70%;
+  height: 15%;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #91d7f2;
+  background-color: #91d7f2;
+}
+
+#A:hover {
+  border: 1px solid #5196a6;
+  background-color: #5196a6;
+}
+
+#B {
+  position: absolute;
+  width: 70%;
+  height: 15%;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #f2594b;
+  background-color: #f2594b;
+}
+
+#B:hover {
+  border: 1px solid #a63c3c;
   background-color: #a63c3c;
 }
 
