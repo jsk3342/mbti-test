@@ -45,22 +45,17 @@
 
 #sub-title {
   font-size: 4rem;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 #A,
 #B {
+  width: 500px;
   font-size: 2rem;
   margin: 20px 0;
 }
 
 #A {
-  position: absolute;
-  width: 70%;
-  height: 15%;
-  top: 58%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border: 1px solid #91d7f2;
   background-color: #91d7f2;
 }
@@ -71,12 +66,6 @@
 }
 
 #B {
-  position: absolute;
-  width: 70%;
-  height: 15%;
-  top: 78%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border: 1px solid #f2594b;
   background-color: #f2594b;
 }
