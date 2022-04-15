@@ -87,9 +87,101 @@ var q = {
 };
 
 var result = {
-  ESTJ: { animal: "하마", explain: "하마 설명", img: "lion.jpg" },
-  ENFP: { animal: "사자", explain: "멋사 설명", img: "lion.jpg" },
-  ENTP: { animal: "호랑", explain: "호랑 설명", img: "lion.jpg" },
+  ISTJ: {
+    animal: "청렴결백한 논리주의자, 세상의 소금형 - ISTJ",
+    explain: "하마 설명",
+    img: "lion.jpg",
+  },
+  ISTP: {
+    type: "ISTP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ISFJ: {
+    type: "ISFJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ISFP: {
+    type: "ISFP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  INTJ: {
+    type: "INTJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  INTP: {
+    type: "INTP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  INFJ: {
+    type: "INFJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  INFP: {
+    type: "INFP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ESTJ: {
+    type: "ESTJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ESTP: {
+    type: "ESTP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ESFJ: {
+    type: "ESFJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ESFP: {
+    type: "ESFP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ENTJ: {
+    type: "ENTJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ENTP: {
+    type: "ENTP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ENFJ: {
+    type: "ENFJ",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
+  ENFP: {
+    type: "ENFP",
+    type_explain: "하마 설명",
+    detail_explain: "디테일 설명",
+    img: "lion.jpg",
+  },
 };
 
 function start() {
@@ -117,10 +209,10 @@ function next() {
     $("#SN").val() < 2 ? (mbti += "N") : (mbti += "S");
     $("#TF").val() < 2 ? (mbti += "F") : (mbti += "T");
     $("#JP").val() < 2 ? (mbti += "P") : (mbti += "J");
-    alert(mbti);
     $("#img").attr("src", result[mbti]["img"]);
-    $("#animal").html(result[mbti]["animal"]);
-    $("#explain").html(result[mbti]["explain"]);
+    $("#typembti").html(result[mbti]["type"]);
+    $("#type_explain").html(result[mbti]["type_explain"]);
+    $("#detail_explain").html(result[mbti]["detail_explain"]);
   } else {
     $(".progress-bar").attr("style", "width: calc(100/12*" + num + "%");
     $("#title").html(q[num]["title"]);

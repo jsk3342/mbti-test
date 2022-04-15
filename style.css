@@ -43,6 +43,12 @@
 
 /* 질문화면 - 버튼 */
 
+.container-btu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #sub-title {
   font-size: 4rem;
   margin: 15px 0;
@@ -52,7 +58,8 @@
 #B {
   width: 500px;
   font-size: 2rem;
-  margin: 20px 0;
+  margin: 20px auto;
+  align-items: center;
 }
 
 #A {
