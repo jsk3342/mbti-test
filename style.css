@@ -1,5 +1,5 @@
 * {
-  font-family: "Nanum Brush Script", cursive;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 메인페이지 */
@@ -10,29 +10,24 @@
   background-color: #f2f0eb;
 }
 
-.main-img {
-  position: absolute;
-  width: 80%;
-  height: 65%;
-  top: 20%;
+.start {
+  width: 600px;
+  margin: 20px auto;
 }
 
-#start-title {
-  font-size: 3rem;
-  position: absolute;
+.main-img {
   width: 70%;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: 500px;
+}
+
+.start-title {
+  font-size: 3rem;
+  padding: 30px 0;
 }
 
 .start-btn {
-  position: absolute;
-  width: 70%;
-  top: 80%;
-  left: 50%;
   font-size: 2rem;
-  transform: translate(-50%, -50%);
+  margin: 30px 0;
 }
 
 /* 질문화면 */
