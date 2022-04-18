@@ -88,98 +88,99 @@ var q = {
 
 var result = {
   ISTJ: {
-    animal: "청렴결백한 논리주의자, 세상의 소금형 - ISTJ",
-    explain: "하마 설명",
+    type: "ISTJ",
+    explain: "청렴결백한 논리주의자, 세상의 소금형 - ISTJ",
+    detail: "하마 설명",
     img: "lion.jpg",
   },
   ISTP: {
     type: "ISTP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ISFJ: {
     type: "ISFJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ISFP: {
     type: "ISFP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   INTJ: {
     type: "INTJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   INTP: {
     type: "INTP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   INFJ: {
     type: "INFJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   INFP: {
     type: "INFP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ESTJ: {
     type: "ESTJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ESTP: {
     type: "ESTP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ESFJ: {
     type: "ESFJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ESFP: {
     type: "ESFP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ENTJ: {
     type: "ENTJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ENTP: {
     type: "ENTP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ENFJ: {
     type: "ENFJ",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
   ENFP: {
     type: "ENFP",
-    type_explain: "하마 설명",
-    detail_explain: "디테일 설명",
+    explain: "하마 설명",
+    detail: "디테일 설명",
     img: "lion.jpg",
   },
 };
@@ -211,8 +212,8 @@ function next() {
     $("#JP").val() < 2 ? (mbti += "P") : (mbti += "J");
     $("#img").attr("src", result[mbti]["img"]);
     $("#typembti").html(result[mbti]["type"]);
-    $("#type_explain").html(result[mbti]["type_explain"]);
-    $("#detail_explain").html(result[mbti]["detail_explain"]);
+    $("#type_explain").html(result[mbti]["explain"]);
+    $("#detail_explain").html(result[mbti]["detail"]);
   } else {
     $(".progress-bar").attr("style", "width: calc(100/12*" + num + "%");
     $("#title").html(q[num]["title"]);

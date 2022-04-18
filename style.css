@@ -1,5 +1,5 @@
 * {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 /* 메인페이지 */
@@ -29,6 +29,8 @@
   font-size: 2rem;
   margin: 30px 0;
 }
+
+/* 여기까지 */
 
 /* 질문화면 */
 
