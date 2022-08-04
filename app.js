@@ -90,7 +90,7 @@ var result = {
   ISTJ: {
     type: "ISTJ",
     explain: "청렴결백한 논리주의자, 세상의 소금형 - ISTJ",
-    detail: "하마 설명",
+    detail: "청렴결백한 논리주의자, 세상의 소금형 - ISTJ",
     img: "lion.jpg",
   },
   ISTP: {
