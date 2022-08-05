@@ -167,7 +167,7 @@ var result = {
   },
   ENTP: {
     type: "ENTP",
-    explain: "하마 설명",
+    explain: "ENTP",
     detail: "디테일 설명",
     img: "lion.jpg",
   },
