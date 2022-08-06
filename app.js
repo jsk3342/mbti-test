@@ -137,8 +137,8 @@ var result = {
   },
   ESTJ: {
     type: "ESTJ",
-    explain: "하마 설명",
-    detail: "디테일 설명",
+    explain: "ESTJ",
+    detail: "ESTJ",
     img: "lion.jpg",
   },
   ESTP: {
